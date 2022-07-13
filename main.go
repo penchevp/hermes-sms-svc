@@ -37,7 +37,6 @@ func main() {
 			Catalog:  os.Getenv("DB_NAME"),
 		},
 		sms.Config{
-			Sender:          os.Getenv("SMS_SENDER"),
 			Region:          os.Getenv("SMS_REGION"),
 			AccessKeyID:     os.Getenv("SMS_ACCESS_KEY"),
 			SecretAccessKey: os.Getenv("SMS_SECRET_ACCESS_KEY"),

@@ -12,7 +12,6 @@ import (
 type Config struct {
 	AccessKeyID     string
 	SecretAccessKey string
-	Sender          string
 	Region          string
 }
 
